@@ -1,0 +1,45 @@
+body {
+    background: #b6a347;
+    margin: auto 0;
+}
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background: aliceblue;
+    padding: 15px;
+}
+
+#block {
+    background: #ccc;
+    padding: 5px 20px 5px 5px;
+    border: solid 1px black;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+#mainText {
+    font-size: 12pt;
+    font-family: Constantia, cursive;
+}
+
+#again {
+    border: 2px solid black;
+    margin: 10px;
+    background: aliceblue;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+#spider, #bg, #text,  #fruit {
+    display: none;
+}
